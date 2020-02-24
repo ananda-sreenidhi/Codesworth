@@ -1,7 +1,7 @@
 import requests, json 
 
 def codesworth_currency(amt, frm, to):
-    api_key = "95e87a3b0d43c8950ed6"
+    api_key = "MYAPIKEY"
     base_url = "https://free.currconv.com" 
     complete_url = base_url + "/api/v7/convert?q=" + frm.upper() + "_" + to.upper() + "&compact=ultra&apiKey=" + api_key
 
