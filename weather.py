@@ -1,7 +1,7 @@
 import requests, json 
 
 def codesworth_weather(city_name):
-    api_key = "702de1d10db1f8e22c04049b7439455e"
+    api_key = "MYAPIKEY"
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
       
     complete_url = base_url + "appid=" + api_key + "&q=" + city_name 
